@@ -39,7 +39,7 @@ export function Skills() {
               </li>
               <li className="flex items-center space-x-2">
                 <Workflow className="w-4 h-4 text-accent/70" />
-                <span>Apache Airflow</span>
+                <span>Airbyte</span>
               </li>
               <li className="flex items-center space-x-2">
                 <Database className="w-4 h-4 text-accent/70" />
@@ -95,7 +95,7 @@ export function Skills() {
               </li>
               <li className="flex items-center space-x-2">
                 <BarChart className="w-4 h-4 text-accent/70" />
-                <span>Power BI</span>
+                <span>Tableau</span>
               </li>
             </ul>
           </div>
@@ -114,10 +114,6 @@ export function Skills() {
               <li className="flex items-center space-x-2">
                 <Workflow className="w-4 h-4 text-accent/70" />
                 <span>CI/CD</span>
-              </li>
-              <li className="flex items-center space-x-2">
-                <Server className="w-4 h-4 text-accent/70" />
-                <span>Docker</span>
               </li>
               <li className="flex items-center space-x-2">
                 <Workflow className="w-4 h-4 text-accent/70" />
