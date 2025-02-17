@@ -5,22 +5,22 @@ export function Testimonials() {
   const [currentTestimonial, setCurrentTestimonial] = useState(0);
   const testimonials = [
     {
-      quote: "Eduardo's ability to transform complex data requirements into intuitive dashboards is remarkable. His work on our screening analytics platform significantly improved our team's efficiency.",
-      author: "Sarah Chen",
-      role: "Senior Data Scientist at PetScreening",
-      image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=200"
+      quote: "Mr. Salvador was of great support to the operational and comercial department. He demostrated a positive attitude, motivation to work as a team, willingness to help his collaborators, and a high sense of responsability and success in fulfilling tasks",
+      author: "Fernando Tapia",
+      role: "Managing Partner at SweetWater Securities",
+      image: "https://www.sweetwatersecurities.com/wp-content/uploads/2018/03/Fernando_Tapia.jpg"
     },
     {
-      quote: "Working with Eduardo on the data pipeline monitoring system was a pleasure. His attention to detail and focus on user experience sets him apart.",
-      author: "Michael Rodriguez",
-      role: "Lead Engineer at Snowflake",
-      image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=200"
+      quote: "I highlight the high degree of responsability, proactivity and enthusiasm that Eduardo showed in each of the tasks assigned, and for respecting the values of our organization in his work, relationship with our collegues and supervisors. I'm certain Eduardo will achieve great things",
+      author: "Elias Polonsky",
+      role: "Investment Banking and Real Estate Director at MMG Bank",
+      image: "https://griclub.sirv.com/uploads/crm_people/0031R00002kLJ3G_Marketing_Edited_Photo_2022-09-13_23-33-36.jpg"
     },
     {
-      quote: "Eduardo's presentation at the Snowflake conference demonstrated not just technical expertise, but also an exceptional ability to communicate complex concepts clearly.",
-      author: "Dr. Emily Watson",
-      role: "Director of Data Strategy",
-      image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=80&w=200"
+      quote: "COMING SOON",
+      author: "",
+      role: "Director of Data Activation at PetScreening",
+      image: ""
     }
   ];
 
