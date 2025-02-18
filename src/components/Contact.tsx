@@ -75,7 +75,7 @@ export function Contact() {
                 </p>
                 <div className="space-y-4">
                   <a
-                    href="https://linkedin.com"
+                    href="https://www.linkedin.com/in/eduardo-salvador-1b7953191/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="social-link"
@@ -85,7 +85,7 @@ export function Contact() {
                   </a>
                   <br />
                   <a
-                    href="https://github.com"
+                    href="https://github.com/Esalvador1998"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="social-link"

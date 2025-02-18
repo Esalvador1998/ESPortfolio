@@ -1,5 +1,5 @@
 import React from 'react';
-import { User, Award, Calendar } from 'lucide-react';
+import { User, Award, Calendar, ArrowRight, Zap } from 'lucide-react';
 
 export function About() {
   return (
@@ -30,30 +30,51 @@ export function About() {
           </div>
 
           {/* Content Column */}
-          <div className="space-y-6 animate-slide-up max-w-xl">
+          <div className="space-y-8 animate-slide-up max-w-xl">
             <div className="prose prose-lg">
-              <p className="text-lg leading-relaxed mb-6">
-                As a Junior Data Solutions Architect at PetScreening, I bridge the gap between complex data systems and user-friendly solutions. My approach combines technical expertise with a keen eye for design, ensuring that data tools are not just powerful, but also intuitive and accessible.
-              </p>
-              
-              <div className="space-y-4 mb-6">
-                <div className="flex items-start space-x-3 group">
-                  <Award className="w-5 h-5 text-accent mt-1 flex-shrink-0 transform group-hover:scale-110 transition-transform duration-300" />
-                  <p className="text-base">Snow Pro Core Certified Professional, demonstrating expertise in Snowflake's data cloud platform</p>
+              <div className="space-y-6">
+                <div className="space-y-4">
+                  <h3 className="text-2xl font-bold flex items-center space-x-2">
+                    <span>Current Role</span>
+                    <Zap className="w-5 h-5 text-accent" />
+                  </h3>
+                  <p className="text-gray-600 leading-relaxed">
+                    As the pioneering data hire at PetScreening, I help architect end-to-end data solutions that power business decisions and automate workflows, focusing on:
+                  </p>
+                  <ul className="space-y-3 text-gray-600">
+                    <li className="flex items-start space-x-2">
+                      <ArrowRight className="w-5 h-5 text-accent mt-1 flex-shrink-0" />
+                      <span>Building scalable data infrastructure and ETL pipelines</span>
+                    </li>
+                    <li className="flex items-start space-x-2">
+                      <ArrowRight className="w-5 h-5 text-accent mt-1 flex-shrink-0" />
+                      <span>Developing analytics tools and interactive dashboards</span>
+                    </li>
+                    <li className="flex items-start space-x-2">
+                      <ArrowRight className="w-5 h-5 text-accent mt-1 flex-shrink-0" />
+                      <span>Implementing data governance and security standards</span>
+                    </li>
+                  </ul>
                 </div>
-                <div className="flex items-start space-x-3 group">
-                  <Award className="w-5 h-5 text-accent mt-1 flex-shrink-0 transform group-hover:scale-110 transition-transform duration-300" />
-                  <p className="text-base">DBT Developer Certified, specializing in modern data transformation workflows</p>
-                </div>
-                <div className="flex items-start space-x-3 group">
-                  <Calendar className="w-5 h-5 text-accent mt-1 flex-shrink-0 transform group-hover:scale-110 transition-transform duration-300" />
-                  <p className="text-base">Featured speaker at Snowflake Conference in San Francisco, presenting on efficient data architecture patterns</p>
+
+                <div className="mt-8 grid gap-4">
+                  <h4 className="text-xl font-semibold">Key Achievements</h4>
+                  <div className="grid gap-4">
+                    <div className="bg-gray-50 p-4 rounded-lg border-l-4 border-accent">
+                      <p className="font-medium">Revenue Impact</p>
+                      <p className="text-sm text-gray-600">Generated $6M+ through automated partner integrations and streamlined data workflows</p>
+                    </div>
+                    <div className="bg-gray-50 p-4 rounded-lg border-l-4 border-accent">
+                      <p className="font-medium">Technical Leadership</p>
+                      <p className="text-sm text-gray-600">Established data architecture standards and best practices as first internal data hire</p>
+                    </div>
+                    <div className="bg-gray-50 p-4 rounded-lg border-l-4 border-accent">
+                      <p className="font-medium">Industry Recognition</p>
+                      <p className="text-sm text-gray-600">Selected speaker at Snowflake Summit, presenting scalable data solutions</p>
+                    </div>
+                  </div>
                 </div>
               </div>
-
-              <p className="text-lg leading-relaxed">
-                I'm passionate about creating clean, efficient solutions that make data accessible and actionable. Whether it's building interactive dashboards or optimizing data workflows, I believe in combining technical excellence with user-centered design.
-              </p>
             </div>
           </div>
         </div>
