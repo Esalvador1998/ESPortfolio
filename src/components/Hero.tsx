@@ -17,7 +17,7 @@ export function Hero() {
               Eduardo Salvador
             </h1>
             <p className="text-2xl md:text-3xl text-accent mb-8 animate-fade-in delay-100">
-              Jr. Data Solutions Architect at PetScreening
+              Jr. Data Solutions Architect @PetScreening
               <span className="block text-xl md:text-2xl mt-1 text-gray-600">Transforming Data into Business Value</span>
             </p>
             

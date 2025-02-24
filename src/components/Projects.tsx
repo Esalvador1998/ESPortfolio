@@ -6,48 +6,48 @@ export function Projects() {
 
   const featuredProjects = [
     {
-      title: "PetScreening Analytics Dashboard",
-      description: "A real-time analytics dashboard built with React and D3.js, providing insights into screening metrics and trends.",
-      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=1000",
-      technologies: ["React", "D3.js", "Snowflake"],
+      title: "FinanceFlow",
+      description: "A mobile web app for personal finance with investment forecasting and real-time Plaid integration..",
+      image: "/personalfinanceapp.png",
+      technologies: ["React", "TypeScript", "Tailwind CSS"],
       icons: [<Code className="w-4 h-4" />, <BarChart className="w-4 h-4" />, <Database className="w-4 h-4" />]
     },
     {
-      title: "Data Pipeline Monitoring Tool",
-      description: "A comprehensive monitoring system for data pipelines, featuring real-time alerts and performance metrics.",
-      image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=1000",
-      technologies: ["Python", "dbt", "Grafana"],
+      title: "ForecastArc",
+      description: "A future‑worth and mortgage calculator that explores what‑if scenarios for smarter financial planning.",
+      image: "/forecastarc.png",
+      technologies: ["React", "TypeScript", "Supabase"],
       icons: [<Code className="w-4 h-4" />, <Database className="w-4 h-4" />, <BarChart className="w-4 h-4" />]
     },
     {
-      title: "Interactive Documentation Portal",
-      description: "A modern documentation platform with interactive examples and API playground for internal tools.",
-      image: "https://images.unsplash.com/photo-1543286386-713bdd548da4?auto=format&fit=crop&q=80&w=1000",
-      technologies: ["Next.js", "MDX", "Swagger"],
+      title: "Aurora Effect",
+      description: "A Three.js interactive experience that simulates dynamic aurora colors with mouse and touch control.",
+      image: "/interactive1.png",
+      technologies: ["Three.js", "JavaScript", "CSS"],
       icons: [<Code className="w-4 h-4" />, <GitBranch className="w-4 h-4" />, <Server className="w-4 h-4" />]
     }
   ];
 
   const additionalProjects = [
     {
-      title: "ETL Performance Optimizer",
-      description: "Automated tool for analyzing and optimizing ETL job performance in data warehouses.",
-      image: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&q=80&w=1000",
-      technologies: ["Python", "Apache Airflow", "PostgreSQL"],
+      title: "ScaleTap",
+      description: "A fast, interactive game that teaches the four core business metrics—LTV, funnel, cost, and conversion—to sharpen strategic thinking.",
+      image: "/educationalpillars.png",
+      technologies: ["React", "Vite", "Game Mechanics"],
       icons: [<Code className="w-4 h-4" />, <Workflow className="w-4 h-4" />, <Database className="w-4 h-4" />]
     },
     {
-      title: "Data Quality Dashboard",
+      title: "Predicting Euro 2024 with Snowflake ML",
       description: "Real-time monitoring system for data quality metrics and anomaly detection.",
-      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=1000",
-      technologies: ["React", "TypeScript", "dbt"],
+      image: "/mlproject.png",
+      technologies: ["Snowflake ML", "Snowpark", "Python"],
       icons: [<Code className="w-4 h-4" />, <BarChart className="w-4 h-4" />, <Database className="w-4 h-4" />]
     },
     {
-      title: "API Integration Platform",
-      description: "Centralized platform for managing and monitoring third-party API integrations.",
-      image: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&q=80&w=1000",
-      technologies: ["Node.js", "Express", "Redis"],
+      title: "GitHub Portfolio",
+      description: "A central hub showcasing my other projects and code contributions.",
+      image: "/github.png",
+      technologies: ["Git"],
       icons: [<Server className="w-4 h-4" />, <Code className="w-4 h-4" />, <Database className="w-4 h-4" />]
     }
   ];
@@ -59,7 +59,7 @@ export function Projects() {
     <section id="work" className="py-20 md:py-32 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">Featured Projects</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4">Personal Projects</h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
             A collection of data-driven solutions and interactive dashboards that showcase my expertise in creating intuitive user experiences.
           </p>

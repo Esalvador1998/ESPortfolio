@@ -19,7 +19,7 @@ export function About() {
           <div className="relative animate-fade-in md:justify-self-end">
             <div className="aspect-square w-[380px] rounded-full overflow-hidden border-4 border-white shadow-2xl mx-auto">
               <img 
-                src="https://ca.slack-edge.com/T92EG40PM-U03PXPT437C-97b5a5f9d73c-512"
+                src="https://media.licdn.com/dms/image/v2/C5603AQGwHm47kQGUhw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1661032397721?e=1745452800&v=beta&t=3A0sjGIUdgF3MvgHyYI_gsJSP1dTd3250GHhuw-weeM"
                 alt="Eduardo Salvador"
                 className="w-full h-full object-cover transform hover:scale-105 transition-transform duration-500"
               />
