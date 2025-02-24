@@ -16,7 +16,7 @@ export function Hero() {
             <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold mb-4 animate-fade-in leading-tight">
               Eduardo Salvador
             </h1>
-            <p className="text-xl sm:text-2xl md:text-3xl text-accent mb-6 md:mb-8 animate-fade-in delay-100">
+            <p className="text-xl sm:text-2xl md:text-3xl text-accent mb-6 md:mb-8 animate-fade-in delay-100 whitespace-nowrap overflow-x-auto pb-2">
               Jr. Data Solutions Architect @PetScreening
               <span className="block text-lg sm:text-xl md:text-2xl mt-2 text-gray-600">Transforming Data into Business Value</span>
             </p>

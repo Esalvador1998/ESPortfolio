@@ -9,7 +9,7 @@ export function Projects() {
       title: "FinanceFlow",
       description: "A mobile web app for personal finance with investment forecasting and real-time Plaid integration.",
       image: "/personalfinanceapp.png",
-      liveUrl: "https://financeflow-demo.netlify.app",
+      liveUrl: "https://mellifluous-cobbler-d30a04.netlify.app/",
       technologies: ["React", "TypeScript", "Tailwind CSS"],
       icons: [<Code className="w-4 h-4" />, <BarChart className="w-4 h-4" />, <Database className="w-4 h-4" />]
     },
@@ -17,7 +17,7 @@ export function Projects() {
       title: "ForecastArc",
       description: "A future‑worth and mortgage calculator that explores what‑if scenarios for smarter financial planning.",
       image: "/forecastarc.png",
-      liveUrl: "https://forecastarc-demo.netlify.app",
+      liveUrl: "https://scintillating-liger-007d8f.netlify.app/",
       technologies: ["React", "TypeScript", "Supabase"],
       icons: [<Code className="w-4 h-4" />, <Database className="w-4 h-4" />, <BarChart className="w-4 h-4" />]
     },
@@ -25,7 +25,7 @@ export function Projects() {
       title: "Aurora Effect",
       description: "A Three.js interactive experience that simulates dynamic aurora colors with mouse and touch control.",
       image: "/interactive1.png",
-      liveUrl: "https://aurora-effect-demo.netlify.app",
+      liveUrl: "https://eduardo-salvador-ui-ux-10641374f207.herokuapp.com/",
       technologies: ["Three.js", "JavaScript", "CSS"],
       icons: [<Code className="w-4 h-4" />, <GitBranch className="w-4 h-4" />, <Server className="w-4 h-4" />]
     }
@@ -36,7 +36,7 @@ export function Projects() {
       title: "ScaleTap",
       description: "A fast, interactive game that teaches the four core business metrics—LTV, funnel, cost, and conversion—to sharpen strategic thinking.",
       image: "/educationalpillars.png",
-      liveUrl: "https://scaletap-game.netlify.app",
+      liveUrl: "https://github.com/Esalvador1998/ScaleUp",
       technologies: ["React", "Vite", "Game Mechanics"],
       icons: [<Code className="w-4 h-4" />, <Workflow className="w-4 h-4" />, <Database className="w-4 h-4" />]
     },
@@ -44,7 +44,7 @@ export function Projects() {
       title: "Predicting Euro 2024 with Snowflake ML",
       description: "Real-time monitoring system for data quality metrics and anomaly detection.",
       image: "/mlproject.png",
-      liveUrl: "https://euro2024-prediction.netlify.app",
+      liveUrl: "https://github.com/Esalvador1998/euro_2024_prediction",
       technologies: ["Snowflake ML", "Snowpark", "Python"],
       icons: [<Code className="w-4 h-4" />, <BarChart className="w-4 h-4" />, <Database className="w-4 h-4" />]
     },

@@ -1,7 +1,39 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Send, Linkedin, Github } from 'lucide-react';
 
 export function Contact() {
+  const [formData, setFormData] = useState({
+    name: '',
+    email: '',
+    message: ''
+  });
+  const [status, setStatus] = useState('');
+
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    setStatus('sending');
+
+    const mailtoLink = `mailto:salvador@vt.edu?subject=Portfolio Contact from ${encodeURIComponent(formData.name)}&body=${encodeURIComponent(`Name: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`)}`;
+    
+    window.location.href = mailtoLink;
+    setStatus('sent');
+    
+    // Reset form after sending
+    setFormData({
+      name: '',
+      email: '',
+      message: ''
+    });
+  };
+
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+    const { name, value } = e.target;
+    setFormData(prev => ({
+      ...prev,
+      [name]: value
+    }));
+  };
+
   return (
     <section id="contact" className="py-20 md:py-32 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -16,7 +48,7 @@ export function Contact() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
             {/* Contact Form */}
             <div className="bg-white rounded-xl shadow-sm p-8">
-              <form className="space-y-6">
+              <form onSubmit={handleSubmit} className="space-y-6">
                 <div>
                   <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-1">
                     Name
@@ -25,6 +57,8 @@ export function Contact() {
                     type="text"
                     id="name"
                     name="name"
+                    value={formData.name}
+                    onChange={handleChange}
                     className="form-input"
                     placeholder="Your name"
                     required
@@ -38,6 +72,8 @@ export function Contact() {
                     type="email"
                     id="email"
                     name="email"
+                    value={formData.email}
+                    onChange={handleChange}
                     className="form-input"
                     placeholder="your.email@example.com"
                     required
@@ -50,6 +86,8 @@ export function Contact() {
                   <textarea
                     id="message"
                     name="message"
+                    value={formData.message}
+                    onChange={handleChange}
                     rows={4}
                     className="form-input"
                     placeholder="Your message"
@@ -58,11 +96,17 @@ export function Contact() {
                 </div>
                 <button
                   type="submit"
-                  className="w-full btn btn-accent inline-flex items-center justify-center space-x-2 hover:shadow-lg"
+                  disabled={status === 'sending'}
+                  className="w-full btn btn-accent inline-flex items-center justify-center space-x-2 hover:shadow-lg disabled:opacity-50 disabled:cursor-not-allowed"
                 >
-                  <span>Send Message</span>
+                  <span>{status === 'sending' ? 'Sending...' : 'Send Message'}</span>
                   <Send className="w-4 h-4" />
                 </button>
+                {status === 'sent' && (
+                  <p className="text-green-600 text-sm text-center mt-2">
+                    Message sent successfully!
+                  </p>
+                )}
               </form>
             </div>
 

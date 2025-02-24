@@ -39,7 +39,7 @@ export function About() {
                     <Zap className="w-5 h-5 text-accent" />
                   </h3>
                   <p className="text-gray-600 leading-relaxed">
-                    As the pioneering data hire at PetScreening, I help architect end-to-end data solutions that power business decisions and automate workflows, focusing on:
+                    As one of the pioneer data hires at PetScreening, I help architect end-to-end data solutions that power business decisions and automate workflows, focusing on:
                   </p>
                   <ul className="space-y-3 text-gray-600">
                     <li className="flex items-start space-x-2">
@@ -70,7 +70,7 @@ export function About() {
                     </div>
                     <div className="bg-gray-50 p-4 rounded-lg border-l-4 border-accent">
                       <p className="font-medium">Industry Recognition</p>
-                      <p className="text-sm text-gray-600">Selected speaker at Snowflake Summit, presenting scalable data solutions</p>
+                      <p className="text-sm text-gray-600">Speaker at Snowflake Summit, presenting scalable data solutions</p>
                     </div>
                   </div>
                 </div>
